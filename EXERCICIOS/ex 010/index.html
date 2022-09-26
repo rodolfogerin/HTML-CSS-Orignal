@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens dinamicas</title>
+</head>
+<body>
+<h1>Imagens dinamicas</h1>
+<p>Tente abrir este site em varios dispotivos diferentes ou simplesmente dimnua o tamanho do seu navegador</p>
+<picture>
+    <source media="(max-width: 750px)" srcset="imagens/p.png" type="image/png">
+    <source media="(max-width: 1050px)" srcset="imagens/m.png" type="image/png">
+    <img src="imagens/g.png" alt="Imagem flexivel">
+</picture>
+<h1>Reproduzindo audios</h1>
+<p>Vamos aprender a reproduzir audios no html5</p>
+<audio src="audios/mp3.mp3" controls autoplay></audio>
+<audio preload="auto" autoplay controls loop> 
+    <source src="audios/mp3.mp3" type="audio/mpeg">
+    <p>Infelismente seu navegador não consegue reproduzir</p>
+</audio> 
+</body>
+</html>

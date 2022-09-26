@@ -1,0 +1,26 @@
+@charset "UTF-8";
+/* html = ID css = #
+html = class css = . */
+body{
+    background-color: rgb(173, 255, 173);
+    font-family: sans-serif;
+}
+h1{
+    color:green ;
+}
+h1#principal{
+    text-align: center;
+    background-color: green;
+    color: whitesmoke;
+    
+}
+h2{
+    color:rgb(0, 71, 0) ;
+}
+p{
+    text-indent: 1em;
+}
+.basico{
+    color: rgb(254, 175, 175);
+}
+

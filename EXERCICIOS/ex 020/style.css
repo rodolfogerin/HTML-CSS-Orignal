@@ -1,0 +1,79 @@
+@charset "UTF-9";
+body{
+    background-image: linear-gradient(to right, #3BD99F, #0D7339);
+    color: #0A4021;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    border: 2px #0A4021 solid;
+    background-color: #63595c2f;
+    padding: 10px 10px;
+    margin: auto; 
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.353);
+}
+
+h1#titulo{
+    border: 5px #0A4021 solid;
+    text-align: center;
+    height: 40px;
+    width: 300px;
+    margin: 1px auto ;
+    background-color: #1AD96D;
+    border-radius: 5px;
+    font-family: 'Times New Roman', Times, serif;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.353);
+}
+
+nav{}
+    
+a{    
+    color: #0A4021;
+    text-decoration: none;
+    text-align: center;
+    border: 3px #0A4021 solid;
+    margin: 10px;
+    padding: 3px 10px;
+    outline: 0px;
+    background-color: #1AD96D;  
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.353);
+}
+a:hover{
+    background-color: #1ad96d2f;
+    color: #0D7339;
+    text-decoration: underline;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.353);
+    
+}
+a:active{
+    box-shadow:2px 2px 2px rgba(255, 255, 255, 0.234)
+}
+a:after{
+    background-color: rgba(0, 0, 0, 0.353);
+    
+}
+
+main{
+    text-indent: 20px;
+    background-color: white;
+    border: 1px #0a4021 solid;
+    margin:  30px auto;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.353);
+
+}
+footer{
+    background-color: #0a402142;
+    text-align: center;   
+    border: 2px #0A4021 solid;
+    margin: 1px;
+    padding: 1px;  
+    outline: 1px; 
+    border-radius: 5px;
+    display: inline-block;
+}
+footer>p{
+    margin: 0px;
+}
