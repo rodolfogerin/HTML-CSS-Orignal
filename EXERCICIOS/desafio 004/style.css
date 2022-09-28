@@ -1,0 +1,102 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'sriracha';
+    src: url('fontes/Sriracha-Regular.ttf') format('opentype'),url('fontes/OFL.txt');
+   
+}
+@font-face {
+font-family: 'passion one';
+src: url(fontes/Passion_One/PassionOne-Regular.ttf)format('opentype'),url('fontes/Passion_One/OFL.txt');
+}
+
+*{
+    
+    font-size: 1em;
+    margin: 0px;
+    padding: 0px;
+}
+html,body{
+    font-family: Arial, Helvetica, sans-serif;
+    min-height: 100vh;
+    margin: 0px;   
+   
+}
+header{   
+    background: black;
+    color: white;
+    text-align: center;
+    margin: 0px;
+    min-height: 100px;
+    outline: 0px;
+    
+}
+header>h1{
+    font-family: 'passion one';
+    font-variant: small-caps;
+    font-size: 10vw;
+    padding-top: 50px;
+    outline: 0px;
+    margin: 0px;
+
+}
+a{
+    color: white;
+    font-weight: bolder;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+h1{
+    display: block;   
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+header{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-bottom: 50px;
+}
+
+section{
+    padding: 10vh 0px 10vh 30px;
+    line-height: 2em;
+    font-family: 'sriracha';
+    font-size: 3.5vw; 
+}
+section>p{
+    padding-bottom: 10vh;
+}
+
+section.imagem{
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.404);
+    background-color: rgba(0, 0, 0, 0.407);
+    background-size: cover;
+    color: white;
+}
+section.imagem>p{
+    display: inline-block;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.397);
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.363);
+}
+#normal{
+    background-color: white;
+}
+
+section.imagem#img01{
+    background: url(imagens/background001.jpg) 100% 100% no-repeat fixed;   
+}
+section.imagem#img002{
+    background: url(imagens/background002.jpg) 100% 100% no-repeat fixed;
+}
+footer{
+    text-align: center;
+    background: black;
+    color: white;
+    padding: 10px;  
+}
+
