@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alinhando Tabelas com colgroup</title>
+    <style>
+    body{
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    table{
+        width: 500px;
+        border-collapse: collapse;
+    }
+    caption{
+        font: bolder 1.2em;
+        padding: 8px;
+    }
+    th,td{
+        border: 1px solid black;
+        padding: 8px;
+    }
+    col.cgrupo{
+        background-color: gray;
+    }
+    div{
+        overflow-x: auto;
+    }
+
+
+    </style>
+</head>
+<body>  
+    <h1>Exercício de Tabela</h1>
+    <div>
+        <table>
+            <colgroup>
+            <col class="cnome">
+            <col class="cgrupo" span="2">
+            <col class="cprof">
+        </colgroup>
+            <caption>Cadastro</caption>
+            <tr>
+                <th scope="col">Nome</th>
+                <th scope="col">Sexo</th>
+                <th scope="col">Idade</th>
+                <th scope="col">Profissão</th>
+            </tr>
+            <tr>
+                <td>Ana Maria</td>
+                <td>F</td>
+                <td>25</td>
+                <td>jornalista</td>
+            </tr>
+            <tr>
+                <td>Rodolfo Gerin junior</td>
+                <td>M</td>
+                <td>23</td>
+                <td>Analista</td>
+            </tr>
+            <tr>
+                <td>Rodolfo Gerin</td>
+                <td>M</td>
+                <td>29</td>
+                <td>Analista</td>
+            </tr>
+            <tr>
+                <td>Jessica carneiro</td>
+                <td>F</td>
+                <td>293</td>
+                <td>Analista</td>
+            </tr>
+            <tr>
+                <td>Maria Gerin</td>
+                <td>F</td>
+                <td>43</td>
+                <td>Analista</td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
