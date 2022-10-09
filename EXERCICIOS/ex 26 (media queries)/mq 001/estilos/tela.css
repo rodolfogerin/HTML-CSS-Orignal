@@ -1,0 +1,29 @@
+@charset "UTF-8";
+/* estilo para tela*/
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    background-color: lightgray;
+}
+header>h1{
+    text-align: center;
+}
+
+menu ul{
+    
+    list-style-type: none;
+    background-color: gray;
+}
+menu li{
+    display: inline-block;
+    background-color: rgb(59, 59, 59);
+    color: whitesmoke;
+    padding: 10px;
+}
+article{
+    width: 600px;
+    display: block;
+    margin: auto;
+}
